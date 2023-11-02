@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+@font-face {
+    font-family: 'Quantum';
+    src: url(./public/Quantum.otf);
+}
+
+@font-face {
+    font-family: 'Nico';
+    src: url('public/NicoMoji-Regular.otf') format('opentype');
+}
+
+
+body {
+    background-color: #1F2833;
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.15'%3E%3Ccircle fill='%231F2833' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%232f4c5f' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2337748b' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%233da0b3' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%2349cdd6' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%2366FCF1' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+.accent-top,
+.accent-bottom {
+    position: fixed;
+    z-index: -100;
+    background-color: #66FCF1;
+    height: 32px;
+    width: 15%;
+}
+
+.accent-top {
+    left: 0;
+    top: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.accent-bottom {
+    right: 0;
+    bottom: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.accent-top:nth-child(2) {
+    width: calc(15% - 30px);
+    top: 50px;
+}
+
+.accent-top:nth-child(3) {
+    width: calc(15% - 60px);
+    top: 90px;
+}
+
+.accent-bottom:nth-child(2) {
+    width: calc(15% - 30px);
+    bottom: 50px;
+}
+
+.accent-bottom:nth-child(3) {
+    width: calc(15% - 60px);
+    bottom: 90px;
+}

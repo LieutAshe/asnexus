@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    width: 99%;
+
+    & .wide {
+        margin: auto;
+
+        & .wideimg {
+            height: 150px;
+        }
+
+        & .boximg {
+            margin-left: 15px;
+                height: 150px;
+            }
+        }
+    }

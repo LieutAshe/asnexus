@@ -1,0 +1,65 @@
+.categoryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 350px;
+    left: 5%;
+    right: 5%;
+    /* background-color: #D9D9D9; */
+    overflow-x: hidden;
+    justify-content: center;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset; */
+}
+
+.categoryCard {
+    background-color: #D9D9D9;
+    border-color: #66FCF1;
+    border-style: solid;
+    border-width: 3px;
+    margin: 20px 15px -10px 15px;
+    height: 300px;
+    width: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: 'Nico';
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.containerTitle {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 290px;
+    
+    & h1 {
+        font-family: 'Quantum';
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+
+    & .accent,
+    .accent2 {
+        position: absolute;
+        background-color: #66FCF1;
+        width: 240px;
+        height: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    & .accent2 {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        right: 0;
+    }
+}

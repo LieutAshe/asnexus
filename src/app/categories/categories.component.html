@@ -1,0 +1,13 @@
+<div class="containerTitle">
+    <div class="accent"></div>
+    <div class="accent2"></div>
+    <h1> CATEGORIES </h1>
+</div>
+
+<div class="categoryContainer">
+    <div *ngFor="let category of category">
+        <img src="{{ category.image }}" class="categoryCard">
+        <h3> {{ category.name }}
+        </h3>
+    </div>
+</div>

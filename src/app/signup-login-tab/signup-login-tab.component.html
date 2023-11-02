@@ -1,0 +1,30 @@
+<div class="col-2">
+<div class="tabs">
+    <button [ngClass]="{ 'active': !signup}" (click)="showsignup()">Sign-Up</button>
+    <button [ngClass]="{ 'active': !login}" (click)="showlogin()">Login</button>
+</div>
+
+<div class="overlay">
+  <div [ngClass]="{ 'hidden': !signup, 'shown': signup}" class="container">
+    
+    <h6>ASN</h6>
+    <h3>Create Your Account</h3>
+    <input type="email" id="signupEmail" placeholder="Email-Address">
+    <input type="text" id="signupPassword" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <input type="password" id="password2" placeholder="Confirm your password">
+    <input type="date" id="bday">
+    <button type="submit">Create Account</button>
+  </div>
+
+  <div [ngClass]="{ 'hidden': !login, 'shown': login}" class="container">
+    
+    <h6>ASN</h6>
+    <h3>Login To Your Account</h3>
+    <input class="email" type="logninEmail" id="email" placeholder="Email-Address">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button class="ShopNow" type="submit">Shop Now!</button>
+  
+  </div>
+</div>
+</div>

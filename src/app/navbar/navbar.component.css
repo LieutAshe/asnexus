@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 7px;
+    width: 99%;
+    height: 50px;
+}
+
+.ASN {
+    font-family: 'Quantum';
+    color: #66FCF1;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.searchBarContainer {
+    display: flex;
+    margin: auto auto;
+    margin-top: 10px;
+    height: 45px;
+    width: 916px;
+    background-color: #66FCF1;
+    border-radius: 30px;
+
+    & .searchIcon {
+        width: 35px;
+        height: 35px;
+        margin: auto 10px;
+    }
+
+    & input {
+        border-color: transparent;
+        background-color: transparent;
+        border-radius: 30px;
+        width: 80%;
+        font-size: 18px;
+        font-family: 'Nunito';
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.6);
+            font-family: 'Nunito';
+            font-size: 18px;
+        }
+    }
+
+    & .find {
+        background-color: transparent;
+        border: none;
+        margin-left: 5%;
+        font-family: 'Nunito';
+        font-size: 15px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.profileContainer {
+    margin: 10px;
+    margin-top: 15px;
+
+    & .profileIcon {
+        width: 40px;
+    }
+
+}
+
+.cartContainer {
+    margin: 10px;
+    margin-top: 15px;
+    margin-right: 25px;
+
+    & .cartIcon {
+        width: 40px;
+    }
+}

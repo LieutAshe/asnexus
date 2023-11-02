@@ -1,0 +1,132 @@
+.hidden {
+    margin-top: 600px;
+  }
+
+.shown {
+  margin-top: 10px;
+}
+  
+.col-2 {
+  display: block;
+  position: absolute;
+  margin-left: 40%;
+  width: 57%;
+  top: 50%;
+  height: 75dvh;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, -50%);  
+  overflow: hidden;
+
+  & .tabs {
+      text-align: center;
+      margin: auto auto;
+      margin-bottom: 30px;
+      background-color: black;
+      border-radius: 30px;
+      width: 400px;
+
+      & button {
+          background-color: rgba(69, 162, 158, 1);
+          border-style: none;
+          margin: 10px;
+          margin-left: 4px;
+          margin-right: 4px;
+          width: 45%;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          border-radius: 20px;
+          font-family: 'Nico';
+          font-size: 15px;
+          color: rgba(255, 255, 255, 1);
+
+          &:hover {
+            cursor: pointer;
+            background-color: rgba(69, 162, 158, 0.9);
+          }
+      }
+
+      & .active {
+          background-color: rgba(69, 162, 158, 0.5);
+          color: rgba(255, 255, 255, 0.5);
+      }
+  }
+
+  & .container {
+      position: absolute;
+      background-color: rgba(19, 48, 46, 0.1);
+      border-color: #66FCF1;
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 60px;
+      width: 540px;
+      margin-left: 180px;
+      color: #66FCF1;
+      min-height: 350px;
+      transition: 0.3s ease-in-out;
+
+      & h6 {
+          font-family: 'Quantum';
+          font-size: 15px;
+          margin: 5px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+          text-align: center;
+      }
+
+      & h3 {
+          font-family: 'Nico';
+          font-size: 28px;
+          margin: 5px;
+          margin-bottom: 15px;
+          text-align: center;
+      }
+
+      & input {
+          width: 90%;
+          background-color: rgba(69, 162, 158, 0.5);
+          border-style: none;
+          border-radius: 20px;
+          height: 50px;
+          font-family: 'Nunito';
+          margin-left: 4%;
+          margin-right: 5%;
+          margin-bottom: 20px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          padding-left: 10px;
+
+          &::placeholder {
+              color: rgba(255, 255, 255, 0.8);
+          }
+      }
+
+      & #bday {
+          width: 130px;
+      }
+
+      & button {
+          font-family: 'Nunito';
+          font-size: 17px;
+          background-color: #66FCF1;
+          box-shadow: black 3px 3px 5px;
+          border-style: none;
+          width: 30%;
+          height: 45px;
+          border-radius: 20px;
+          margin-left: 30%;
+
+          &:hover {
+            cursor: pointer;
+          }
+      }
+
+      & .ShopNow {
+        margin-top: 20px;
+        margin-left: 35%;
+      }
+
+      & .email {
+        margin-top: 30px;
+      }
+  }
+}
