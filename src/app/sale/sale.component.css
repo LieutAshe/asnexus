@@ -2,8 +2,27 @@
     display: flex;
     flex-wrap: wrap;
     margin: 5%;
-    margin-top: 20px;
+    margin-top: 0px;
     justify-content: center;
+}
+
+.discount {
+    position: relative;
+    background-image: url('/assets/tag.png');
+    font-family: 'Quantum';
+    color: var(--nuetral);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    top: 50px;
+    left: 141px;
+
+    & span {
+        position: relative;
+        top: 27px;
+        left: 13px;
+        font-size: 38px;
+    }
 }
 
 .categoryCard {
@@ -11,7 +30,7 @@
     border-color: var(--main);
     border-style: solid;
     border-width: 3px;
-    margin: 20px 15px -10px 15px;
+    margin: -50px 15px -10px 15px;
     height: 300px;
     width: 220px;
     object-fit: cover;
@@ -28,8 +47,7 @@ h3 {
 
 .containerTitle {
     text-align: center;
-    margin-top: 350px;
-    top: 290px;
+    margin-top: 20px;
     
     & h1 {
         font-family: 'Quantum';

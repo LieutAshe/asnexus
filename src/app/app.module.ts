@@ -9,6 +9,10 @@ import { SignupLoginTabComponent } from './signup-login-tab/signup-login-tab.com
 import { NavbarComponent } from './navbar/navbar.component';
 import { AdsSectionComponent } from './ads-section/ads-section.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { SaleComponent } from './sale/sale.component';
+import { ShippingComponent } from './shipping/shipping.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +23,10 @@ import { CategoriesComponent } from './categories/categories.component';
     NavbarComponent,
     AdsSectionComponent,
     CategoriesComponent,
+    SaleComponent,
+    ShippingComponent,
+    FooterComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,

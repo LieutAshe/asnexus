@@ -10,19 +10,30 @@
     src: url('public/NicoMoji-Regular.otf') format('opentype');
 }
 
+:root {
+    --bg: #1F2833;
+    --main: #66FCF1;
+    --secondary: #66FCF1;
+    --tertiary: #1F2833;
+    --bg2: #D9D9D9;
+    --nuetral: #FFFFFF;
+}
+
 
 body {
-    background-color: #1F2833;
+    background-color: var(--bg);
     /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.15'%3E%3Ccircle fill='%231F2833' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%232f4c5f' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2337748b' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%233da0b3' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%2349cdd6' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%2366FCF1' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover; */
+    margin: 0;
+    padding: 0;
 }
 
 .accent-top,
 .accent-bottom {
     position: fixed;
     z-index: -100;
-    background-color: #66FCF1;
+    background-color: var(--main);
     height: 32px;
     width: 15%;
 }

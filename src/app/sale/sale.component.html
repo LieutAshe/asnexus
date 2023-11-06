@@ -1,0 +1,14 @@
+<div class="containerTitle">
+    <div class="accent"></div>
+    <div class="accent2"></div>
+    <h1> ON SALE! </h1>
+</div>
+
+<div class="categoryContainer">
+    <div *ngFor="let sale of sale">
+        <div class="discount"> <span>{{ sale.discount }}</span> </div>
+        <img src="{{ sale.image }}" class="categoryCard">
+        <h3> {{ sale.name }}
+        </h3>
+    </div>
+</div>
