@@ -1,0 +1,30 @@
+.error {
+    background-color: var(--bg);
+    position: absolute;
+    z-index: 99999;
+    text-align: center;
+    width: 100%;
+    height: 100dvh;
+    color: var(--main);
+}
+
+h2 {
+    font-family: 'Quantum';
+    margin-top: 30dvh;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Nunito';
+    margin-top: 0px;
+}
+
+a {
+    color: var(--main);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

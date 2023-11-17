@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="ASN">ASN</div>
+    <div class="ASN"><a routerLink="/">ASN</a></div>
     <div class="searchBarContainer">
         <img class="searchIcon" src="assets/search.png" alt="Search Image">
         <input type="text" id="search" placeholder="Has a product in your mind?">
@@ -8,12 +8,12 @@
         </button>
     </div>
     <div class="profileContainer">
-        <a href="/">
+        <a routerLink="/profile" routerLinkActive="activebutton" ariaCurrentWhenActive="page">
             <img src="assets/profile.png" class="profileIcon">
         </a>
     </div>
     <div class="cartContainer">
-        <a href="/">
+        <a routerLink="/cart" routerLinkActive="activebutton" aria-CurrentActive="page">
             <img src="assets/Cart.png" class="cartIcon">
         </a>
     </div>

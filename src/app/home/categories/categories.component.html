@@ -1,0 +1,17 @@
+<div class="containerTitle">
+    <div class="accent"></div>
+    <div class="accent2"></div>
+    <h1> CATEGORIES </h1>
+</div>
+
+<!-- categories.component.html -->
+
+<div class="categoryContainer">
+    <div *ngFor="let catItem of category">
+      <a [routerLink]="['/list', catItem.id]">
+        <img src="{{ catItem.image }}" class="categoryCard">
+        <h3>{{ catItem.name }}</h3>
+      </a>
+    </div>
+  </div>
+  

@@ -12,6 +12,10 @@
     font-size: 40px;
     margin-left: 10px;
     margin-top: 5px;
+    & a {
+        color: var(--main);
+        text-decoration: none;
+    }
 }
 
 .searchBarContainer {
@@ -79,4 +83,8 @@
     & .cartIcon {
         width: 40px;
     }
+}
+
+.activebutton {
+    background-color: azure;
 }

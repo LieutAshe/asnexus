@@ -4,7 +4,7 @@ export interface category {
     image: string;
   }
 
-  export const categories: category[] = [
+  export const cat: category[] = [
     {
         id: 1,
         name: 'CPU',

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { onsale } from "../sale";
+import { onsale } from "../../sale";
 
 @Component({
   selector: 'app-sale',
